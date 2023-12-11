@@ -36,8 +36,6 @@ export class CreateQuestionController {
         slug: this.convertToSlug(title),
       },
     })
-    console.log(user)
-    return 'ok'
   }
 
   private convertToSlug(title: string): string {
