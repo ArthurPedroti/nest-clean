@@ -39,6 +39,7 @@ lerna-debug.log*
 
 # env
 .env
+.env.test
 
 # keys
 private_key.pem
